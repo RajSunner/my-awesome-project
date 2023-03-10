@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./index";
+import Super from "./index";
 
-ReactDOM.render(<App foo="Whats up bud" />, document.getElementById("root"));
+ReactDOM.render(<Super foo="Whats up bud" className="bg-slate-500" />, document.getElementById("root"));
